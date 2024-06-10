@@ -1,26 +1,6 @@
 ## git commit message
 This website follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-### installation
-_You will need husky.sh to run commitlint, if you don't have husky.sh in your .husky directory please install husky_
-```
-npm install husky --save-dev
-```
-_Then run npx command to initialize husky_
-```
-npx husky install
-```
-_If you tried to write a commit message without following the guidelines below it should look like this_
-```
-$ git commit -m "coms"
-⧗   input: coms
-✖   subject may not be empty [subject-empty]
-✖   type may not be empty [type-empty]
-
-✖   found 2 problems, 0 warnings
-ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-
-husky - commit-msg hook exited with code 1 (error)
 ```
 _If you tried to write a commit message following the guidelines below it should look like this_
 ```
