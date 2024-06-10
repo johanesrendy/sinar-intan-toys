@@ -1,7 +1,6 @@
 ## git commit message
 This website follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-```
 _If you tried to write a commit message following the guidelines below it should look like this_
 ```
 $ git commit -m "style: remove white-space"
@@ -37,3 +36,4 @@ Tambahkan BREAKING CHANGE di description apabila ada perubahan yang signifikan.
 - Gunakan kata imperative, dan present tense: "change" bukan "changed" atau "changes"
 - Jangan gunakan huruf kapital di awal kalimat description
 - Jangan tambahkan titik di akhir description
+
