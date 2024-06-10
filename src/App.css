@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -29,6 +34,11 @@ nav {
   justify-content: space-between;
   min-height: 90px;
 }
+
+a {
+  text-decoration: none;
+}
+
 .navbar-menu-container {
   display: none;
 }
