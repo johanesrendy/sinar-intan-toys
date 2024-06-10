@@ -21,7 +21,7 @@ const Home = () => {
           </p>
           <a href="#contact">
             <button className="secondary-button">
-              Order Now <FiArrowRight />
+              Pesan Sekarang <FiArrowRight />
             </button>
           </a>
         </div>
