@@ -23,7 +23,7 @@ const Contact = () => {
               <h5 class="text-danger">Shopee</h5>
             </button>
           </div>
-        </div
+        </div>
         <div class="col-1"></div>
       </div>
     </div>
