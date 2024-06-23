@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-container" id="Home">
       <Navbar />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
@@ -19,7 +19,7 @@ const Home = () => {
           <p className="primary-text">
             Hadirkan Senyum dan Petualangan untuk Buah Hati Anda
           </p>
-          <a href="#contact">
+          <a href="#Contact">
             <button className="secondary-button">
               Pesan Sekarang <FiArrowRight />
             </button>
