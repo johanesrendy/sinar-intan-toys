@@ -51,7 +51,7 @@ const Footer = () => {
             href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=TommyGunawan@gmail.com"
             rel="noreferrer"
           >
-            <span>TommyGunawan@gmail.com</span>
+            <span>sinarintantoys@gmail.com</span>
           </a>
         </div>
       </div>
