@@ -21,17 +21,20 @@ const About = () => {
           Kualitas <span className="primary-heading-red">Memukau</span>
         </h1>
         <p className="primary-text">
-        Berdiri sejak tahun 2007, Sinar Intan Toys hadir untuk memberikan para pelanggan beragam jenis mainan, menjadikan tempat pilihan yang tepat untuk mendapatkan mainan terbaik dengan harga yang pas.
+          Berdiri sejak tahun 2007, Sinar Intan Toys hadir untuk memberikan para
+          pelanggan beragam jenis mainan, menjadikan tempat pilihan yang tepat
+          untuk mendapatkan mainan terbaik dengan harga yang pas.
         </p>
         <p className="primary-text">
-        Sinar Intan Toys dapat anda kunjungi di Pasar Anyar Kota Tangerang serta tersedia pada aplikasi Tokopedia: Sinar Intan Toys.
+          Sinar Intan Toys dapat anda kunjungi di Pasar Anyar Kota Tangerang
+          serta tersedia pada aplikasi Tokopedia: Sinar Intan Toys.
         </p>
-        <div className="about-buttons-container">
+        {/* <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

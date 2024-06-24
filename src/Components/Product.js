@@ -38,11 +38,13 @@ const Product = () => {
         {workInfoData.map((data) => (
           <div className="work-section-info shadow" key={data.title}>
             <div className="info-boxes-img-container">
-              <img src={data.image} alt="" className="rounded-img"/>
+              <img src={data.image} alt="" className="rounded-img" />
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>
-            <a className="primary-button shadow" href={data.link}>Buy Now</a> 
+            <a className="primary-button-product shadow" href={data.link}>
+              Buy Now
+            </a>
           </div>
         ))}
       </div>
