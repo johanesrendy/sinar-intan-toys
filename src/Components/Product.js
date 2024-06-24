@@ -25,7 +25,7 @@ const Product = () => {
     },
   ];
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" id="Product">
       <div className="work-section-top">
         <p className="primary-subheading">Product</p>
         <h1 className="primary-heading">Apa Saja Produknya</h1>

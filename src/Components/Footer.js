@@ -4,7 +4,7 @@ import marketplaceicon from "../Assets/icons8-tokopedia-48kecil.png";
 import whatsappicon from "../Assets/icons8-whatsapp-48kecil.png";
 
 const Footer = () => {
-  const menu = ["Home", "About", "Produk", "Testimonial", "Contact"];
+  const menu = ["Home", "About", "Product", "Testimonial", "Contact"];
   return (
     <div className="footer-wrapper">
       <div className="footer-section-one">
