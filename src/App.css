@@ -301,9 +301,9 @@ a:hover {
 }
 .work-section-info {
   width: 290px;
-  min-height: 350px;
+  min-height: 550px;
   background-color: white;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -329,6 +329,43 @@ a:hover {
   align-items: center;
   font-weight: 600;
 }
+
+.primary-button{
+  background-color: #fe9e0d;
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 900;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+  min-width: 200px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.primary-button, a.primary-button:visited, a.primary-button:active, a.primary-button:hover{
+  color: white;
+
+}
+
+.primary-button:hover{
+  background-color: #e48f0f;
+}
+
+.primary-button::after{
+  background-color: #e48f0f;
+  color: white;
+}
+
+.work-section-bottom .rounded-img{
+  border-radius: 1.5rem;
+}
+
 
 @media (max-width: 1000px) {
   .navbar-links-container a {
