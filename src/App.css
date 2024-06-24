@@ -112,6 +112,9 @@ a:hover {
   /* line-height: 5rem; */
   max-width: 600px;
 }
+.primary-heading-red {
+  color: rgb(221, 0, 0);
+}
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;

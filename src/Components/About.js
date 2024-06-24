@@ -13,17 +13,18 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">About Sinar Intan Toys</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Harga <span className="primary-heading-red">Terjangkau</span>
+        </h1>
+        <h1 className="primary-heading">
+          Kualitas <span className="primary-heading-red">Memukau</span>
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Berdiri sejak tahun 2007, Sinar Intan Toys hadir untuk memberikan para pelanggan beragam jenis mainan, menjadikan tempat pilihan yang tepat untuk mendapatkan mainan terbaik dengan harga yang pas.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Sinar Intan Toys dapat anda kunjungi di Pasar Anyar Kota Tangerang serta tersedia pada aplikasi Tokopedia: Sinar Intan Toys.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
