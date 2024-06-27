@@ -67,6 +67,7 @@ a:hover {
 .navbar-cart-icon {
   font-size: 1.15rem;
 }
+
 .primary-button:hover {
   background-color: rgb(234, 234, 234);
 }
@@ -123,7 +124,6 @@ a:hover {
 
 .primary-heading-red {
   color: rgb(221, 0, 0);
-
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);

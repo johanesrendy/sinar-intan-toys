@@ -1,8 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../Assets/Logo.svg";
-import cartlogo from "../Assets/cartlogo.png";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -16,7 +13,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -32,7 +28,7 @@ const Navbar = () => {
     {
       text: "Produk",
       icon: <InfoIcon />,
-      },
+    },
     {
       text: "Testimoni",
       icon: <CommentRoundedIcon />,
@@ -48,14 +44,14 @@ const Navbar = () => {
         <h1 className="top-heading"> SINAR INTAN TOYS </h1>
       </div>
       <div className="navbar-links-container">
-        <a href="">Beranda</a>
-        <a href="">Tentang Kami</a>
-        <a href="">Produk</a>
-        <a href="">Testimoni</a>
-        <a href="">Kontak</a>
-        <button className="primary-button">
-        <BsCart2 className="navbar-cart-icon" />
-        </button>
+        <a href="#Home">Beranda</a>
+        <a href="#About">Tentang Kami</a>
+        <a href="#Product">Produk</a>
+        <a href="#Testimonial">Testimoni</a>
+        <a href="Contact">Kontak</a>
+        {/* <button className="primary-button">
+          <BsCart2 className="navbar-cart-icon" />
+        </button> */}
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

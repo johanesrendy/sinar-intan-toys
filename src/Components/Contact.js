@@ -5,7 +5,7 @@ import whatsappicon from "../Assets/icons8-whatsapp-48.png";
 const Contact = () => {
   return (
     <div id="Contact" className="contact-page-wrapper text-center">
-      <h1 className="primary-heading">
+      <h1 className="primary-heading" id="Contact">
         Tertarik dengan permainan yang ditawarkan ?
       </h1>
       <h1 className="primary-heading mb-5">Segera komunikasikan</h1>
