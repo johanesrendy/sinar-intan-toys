@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -29,6 +34,15 @@ nav {
   justify-content: space-between;
   min-height: 90px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .navbar-menu-container {
   display: none;
 }
@@ -72,10 +86,19 @@ nav {
   z-index: -2;
   max-width: 700px;
 }
+
 .home-image-section {
-  max-width: 600px;
-  flex: 1;
+  display: none;
 }
+
+@media (min-width: 768px) {
+  .home-image-section {
+    display: block;
+    max-width: 600px;
+    flex: 1;
+  }
+}
+
 .home-text-section {
   flex: 1;
   display: flex;
@@ -83,17 +106,24 @@ nav {
   justify-content: center;
   align-items: flex-start;
 }
+
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
   /* line-height: 5rem; */
   max-width: 600px;
 }
+
 .top-heading {
   font-size: clamp(1rem, 4vw, 3rem);
   color: #fe9e0d;
   /* line-height: 5rem; */
   max-width: 500px;
+}
+
+.primary-heading-red {
+  color: rgb(221, 0, 0);
+
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
@@ -284,9 +314,9 @@ nav {
 }
 .work-section-info {
   width: 290px;
-  min-height: 350px;
+  min-height: 550px;
   background-color: white;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -313,12 +343,50 @@ nav {
   font-weight: 600;
 }
 
+.primary-button-product {
+  background-color: #fe9e0d;
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 900;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+  min-width: 200px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.primary-button-product,
+a.primary-button-product:visited,
+a.primary-button-product:active,
+a.primary-button-product:hover {
+  color: white;
+}
+
+.primary-button-product:hover {
+  background-color: #e48f0f;
+}
+
+.primary-button-product::after {
+  background-color: #e48f0f;
+  color: white;
+}
+
+.work-section-bottom .rounded-img {
+  border-radius: 1.5rem;
+}
+
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;
     font-size: 1rem;
   }
-  .primary-button {
+  .primary-button-product {
     font-size: 1rem;
   }
   .home-bannerImage-container {

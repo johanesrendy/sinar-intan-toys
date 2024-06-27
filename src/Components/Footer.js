@@ -1,42 +1,58 @@
 import React from "react";
-import Logo from "../Assets/Logo.svg";
-import { BsTwitter } from "react-icons/bs";
-import { SiLinkedin } from "react-icons/si";
-import { BsYoutube } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
+
+import marketplaceicon from "../Assets/icons8-tokopedia-48kecil.png";
+import whatsappicon from "../Assets/icons8-whatsapp-48kecil.png";
 
 const Footer = () => {
+  const menu = ["Home", "About", "Product", "Testimonial", "Contact"];
   return (
     <div className="footer-wrapper">
       <div className="footer-section-one">
         <div className="footer-logo-container">
-          <img src={Logo} alt="" />
+          <h4>Sinar Intan Toys</h4>
         </div>
         <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
-          <FaFacebookF />
+          <a
+            target="_blank"
+            href="https://www.tokopedia.com/sinarintantoys"
+            rel="noreferrer"
+          >
+            <img src={marketplaceicon} alt="" />
+          </a>
+          <a
+            target="_blank"
+            href="https://wa.me/6282323011032"
+            rel="noreferrer"
+          >
+            <img src={whatsappicon} alt="" />
+          </a>
         </div>
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
-          <span>Help</span>
-          <span>Share</span>
-          <span>Carrers</span>
-          <span>Testimonials</span>
-          <span>Work</span>
+          {menu.map((item, index) => (
+            <div key={index}>
+              <a href={`#${item}`}>
+                <span>{item}</span>
+              </a>
+            </div>
+          ))}
         </div>
         <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
-        </div>
-        <div className="footer-section-columns">
-          <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
+          <a
+            target="_blank"
+            href="https://wa.me/6282323011032"
+            rel="noreferrer"
+          >
+            <span>0823-2301-1032</span>
+          </a>
+          <a
+            target="_blank"
+            href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=TommyGunawan@gmail.com"
+            rel="noreferrer"
+          >
+            <span>sinarintantoys@gmail.com</span>
+          </a>
         </div>
       </div>
     </div>
