@@ -106,14 +106,24 @@ a:hover {
   justify-content: center;
   align-items: flex-start;
 }
+
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
   /* line-height: 5rem; */
   max-width: 600px;
 }
+
+.top-heading {
+  font-size: clamp(1rem, 4vw, 3rem);
+  color: #fe9e0d;
+  /* line-height: 5rem; */
+  max-width: 500px;
+}
+
 .primary-heading-red {
   color: rgb(221, 0, 0);
+
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
