@@ -89,6 +89,12 @@ nav {
   /* line-height: 5rem; */
   max-width: 600px;
 }
+.top-heading {
+  font-size: clamp(1rem, 4vw, 3rem);
+  color: #fe9e0d;
+  /* line-height: 5rem; */
+  max-width: 500px;
+}
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
